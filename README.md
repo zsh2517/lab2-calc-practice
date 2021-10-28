@@ -1,5 +1,11 @@
 # calc-practice
 
+## Notes
+
+Only for the lab2 in **软件过程与工具**
+
+The original repo is at [gogs of zsh2517](https://git.zsh2517.com/zsh2517/calc-practice)
+
 ## Project setup
 ```
 yarn install
