@@ -102,7 +102,6 @@ export function generate(conf = null) {
     console.log("conf", conf);
     // eslint-disable-next-line no-constant-condition
     while (true) {
-        // console.log("AAA");
         cntCount = 1;
         try {
             let ans = ranNum(conf.interval.answer[0], conf.interval.answer[1]);
@@ -131,7 +130,6 @@ export function generateCount($store) {
         }
     }
     console.log(l.map(item => JSON.parse(item)));
-    // return l.map(item => JSON.parse(item));
     $store.commit("setProblems", l.map(item => JSON.parse(item)));
 }
 

@@ -72,14 +72,6 @@ export default {
                 this.timeCount += 1
             }
         }, 1000);
-        // let s = [];
-        // for (let i = 0; i < 10; i++) {
-        //     s.push({
-        //         formula: 1,
-        //         ans: 1,
-        //         input: 1,
-        //     })
-        // }
     },
     methods: {
         submit() {

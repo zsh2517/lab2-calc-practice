@@ -11,19 +11,6 @@ export default {
     name: 'App',
     components: {},
     methods: {
-
-        // loadPage(pagename) {
-        //     console.log(pagename);
-        //     switch (pagename) {
-        //         case 'begin':
-        //             this.$router.push(location, "/exercise");
-        //             break;
-        //         case 'print':
-        //             this.$router.push(location, "/print");
-        //             break;
-        //
-        //     }
-        // }
     },
     mounted() {
         window.$store = this.$store;

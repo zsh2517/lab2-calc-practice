@@ -14,17 +14,6 @@
                 <el-input type="textarea" :autosize="{min: 10, max: 40}" :value="answerText"
                           style="font-size: x-large">
                 </el-input>
-                <!--                <div class="exercise-field">-->
-                <!--                    <div v-for="(item, index) in exercises" :key="index" class="exercise-box">-->
-                <!--                        <div class="exercise-question">-->
-                <!--                            {{ item.formula }} =-->
-                <!--                        </div>-->
-                <!--                        <div class="exercise-question">-->
-                <!--                            <input style="border: none; font-size: x-large; height: 1em;-->
-                <!--                            width: 3em; border-bottom: 0.5px solid black;"/>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </el-card>
         </el-col>
     </el-row>
