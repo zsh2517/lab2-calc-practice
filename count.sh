@@ -1,0 +1,1 @@
+cat {src/,src/*/}*.{vue,js} | wc -l
