@@ -26,7 +26,7 @@ const store = new Vuex.Store({
                 answer: [1, 100],
                 element: [1, 100]
             },
-            operators: ["+"], // , "-", "*", "/"],
+            operators: ["+"],,
             bracket: false,
             count: 2
         },
