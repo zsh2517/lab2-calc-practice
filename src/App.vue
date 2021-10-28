@@ -27,10 +27,6 @@ export default {
     },
     mounted() {
         window.$store = this.$store;
-
-        // let l = this.create(10);
-        // this.$store.commit("setProblems", l);
-        // localStorage.setItem("problems", JSON.stringify(l));
     }
 }
 </script>
